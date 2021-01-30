@@ -1,0 +1,12 @@
+<div class="container-fluid">
+  <h1 class="text-center mt-5">Megaterios Blog</h1>
+  {{#each article}}
+    <div class="card">
+      <img class="card-img-top" src="{{image}}" alt="card_image">
+      <div class="card-body">
+        <h5 class="card-title">{{title}}</h5>
+        <p class="card-text">{{description}}</p>
+      </div>
+    </div>
+  {{/each}}
+</div>
